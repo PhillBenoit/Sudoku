@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user1.sudoku.SudokuActivity"
+    tools:showIn="@layout/activity_sudoku">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_00"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_01"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_02"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_03"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_04"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_05"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_06"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_07"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_08"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_10"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_11"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_12"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_13"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_14"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_15"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_16"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_17"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_18"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_20"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_21"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_22"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_23"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_24"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_25"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_26"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_27"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_28"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_30"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_31"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_32"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_33"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_34"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_35"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_36"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_37"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_38"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_40"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_41"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_42"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_43"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_44"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_45"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_46"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_47"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_48"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_50"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_51"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_52"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_53"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_54"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_55"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_56"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_57"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_58"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_60"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_61"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_62"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_63"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_64"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_65"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_66"
+            android:background="@drawable/corner1"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_67"
+            android:background="@drawable/top"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_68"
+            android:background="@drawable/corner2"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_70"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_71"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_72"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_73"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_74"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_75"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_76"
+            android:background="@drawable/left"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_77"
+            android:background="@drawable/center"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_78"
+            android:background="@drawable/right"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/board_80"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_81"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_82"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_83"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_84"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_85"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_86"
+            android:background="@drawable/corner3"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_87"
+            android:background="@drawable/bottom"
+            style="@style/board_default"
+            />
+
+        <TextView
+            android:id="@+id/board_88"
+            android:background="@drawable/corner4"
+            style="@style/board_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="1"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="2"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:text="3"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:text="4"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:text="5"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:text="6"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:text="7"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:text="8"
+            style="@style/button_default"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:text="9"
+            style="@style/button_default"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/game_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
