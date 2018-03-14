@@ -3,7 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="yellowBG">#ffffb3</color>
-    <color name="blueBG">#b6ffff</color>
-    <color name="redBG">#e57373</color>
+    <color name="selectedBG">#ffffb3</color>
+    <!--<color name="blueBG">#b6ffff</color>-->
+    <color name="autoBG">#B2FF59</color>
+    <color name="similarBG">#e57373</color>
 </resources>

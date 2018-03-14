@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Sudoku</string>
     <string name="action_new_game">New Game</string>
-    <string name="wrong">Wrong guesses: %d</string>
+    <string name="wrong">Wrong guesses:</string>
+    <string name="remaining">Remaining:</string>
 </resources>
