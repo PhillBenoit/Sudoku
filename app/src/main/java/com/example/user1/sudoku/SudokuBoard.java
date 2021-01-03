@@ -1,5 +1,6 @@
 package com.example.user1.sudoku;
 
+import android.annotation.SuppressLint;
 import android.widget.TextView;
 
 import java.util.Arrays;
@@ -79,6 +80,7 @@ public class SudokuBoard {
     }
 
     //constructor with existing values for starting a new game
+    @SuppressWarnings("CopyConstructorMissesField")
     public SudokuBoard(SudokuBoard old_board) {
 
         BOARD_SIZE = old_board.BOARD_SIZE;
@@ -95,6 +97,7 @@ public class SudokuBoard {
     }
 
     //set textviews for counters
+    @SuppressLint("SetTextI18n")
     public void setCountTextViews(TextView wrong_view, TextView remaining_view) {
         wrong_txt = wrong_view;
         wrong_txt.setText(wrong.toString());
@@ -104,12 +107,14 @@ public class SudokuBoard {
     }
 
     //increment wrong count and update the textview
+    @SuppressLint("SetTextI18n")
     public void incWrong(){
         wrong++;
         wrong_txt.setText(wrong.toString());
     }
 
     //decrement remaining count and update the textview
+    @SuppressLint("SetTextI18n")
     public void decRemaining(){
         remaining--;
         remaining_txt.setText(remaining.toString());

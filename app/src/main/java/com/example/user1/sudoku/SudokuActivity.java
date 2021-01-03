@@ -8,9 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 //import android.util.Log;
 import android.view.Display;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -82,7 +82,6 @@ public class SudokuActivity extends AppCompatActivity {
         wrong_count_text.setTextSize(small_font_size);
         remaining_count_text.setTextSize(small_font_size);
 
-
         //new board object
         board = new SudokuBoard(BOARD_SIZE, SUB_GRID_SIZE, AUTO_BG);
         board.setCountTextViews(wrong_count_text,remaining_count_text);
@@ -129,6 +128,13 @@ public class SudokuActivity extends AppCompatActivity {
 
         //declare new list for similar highlighted squares
         similar_highlighted_squares = new ArrayList<>();
+
+        //---------------------
+
+        //TextView test_box = findViewById(R.id.board_00);
+        //test_box.set
+
+        //---------------------
 
         startGame();
     }
@@ -207,6 +213,7 @@ public class SudokuActivity extends AppCompatActivity {
 
     //board click event
     private void boardClickEvent(Cursor location) {
+
         //checks for solved number as last clicked
         if (board.possible_count[board.cursor.x][board.cursor.y] == 0) {
             //clears all highlighted similar backgrounds
